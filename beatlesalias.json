@@ -1,0 +1,379 @@
+[Command: python -u 'C:\Users\Bash\Desktop\Udacity\2_Data Analysis\P2\Beatles\musicbrains.py']
+requesting http://musicbrainz.org/ws/2/artist/?query=artist%3ABeatles&fmt=json&inc=aliases
+ARTIST:
+{
+    "aliases": [
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "ko",
+            "name": "\ub354 \ube44\ud2c0\uc988",
+            "primary": true,
+            "sort-name": "\ub354 \ube44\ud2c0\uc988",
+            "type": null
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "ja",
+            "name": "\u30b6\u30fb\u30d3\u30fc\u30c8\u30eb\u30ba",
+            "primary": true,
+            "sort-name": "\u30d3\u30fc\u30c8\u30eb\u30ba (\u30b6)",
+            "type": null
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": null,
+            "name": "B",
+            "primary": null,
+            "sort-name": "B",
+            "type": "Search hint"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": null,
+            "name": "Be",
+            "primary": null,
+            "sort-name": "Be",
+            "type": "Search hint"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": null,
+            "name": "Beat",
+            "primary": null,
+            "sort-name": "Beat",
+            "type": "Search hint"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "en",
+            "name": "Beatles",
+            "primary": null,
+            "sort-name": "Beatles",
+            "type": "Artist name"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": null,
+            "name": "Beetles",
+            "primary": null,
+            "sort-name": "Beetles",
+            "type": "Search hint"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": null,
+            "name": "fab four",
+            "primary": null,
+            "sort-name": "fab four",
+            "type": "Search hint"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "es",
+            "name": "Los Beatles",
+            "primary": true,
+            "sort-name": "Los Beatles",
+            "type": null
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "en",
+            "name": "The Beatles",
+            "primary": true,
+            "sort-name": "Beatles, The",
+            "type": "Artist name"
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "ru",
+            "name": "\u0411\u0438\u0442\u043b\u0437",
+            "primary": true,
+            "sort-name": "\u0411\u0438\u0442\u043b\u0437",
+            "type": null
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "zh_Hans",
+            "name": "\u62ab\u5934\u58eb",
+            "primary": true,
+            "sort-name": "\u62ab\u5934\u58eb",
+            "type": null
+        },
+        {
+            "begin-date": null,
+            "end-date": null,
+            "locale": "zh_Hant",
+            "name": "\u62ab\u982d\u56db",
+            "primary": true,
+            "sort-name": "\u62ab\u982d\u56db",
+            "type": null
+        }
+    ],
+    "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom"
+    },
+    "begin-area": {
+        "id": "c249c30e-88ab-4b2f-a745-96a25bd7afee",
+        "name": "Liverpool",
+        "sort-name": "Liverpool"
+    },
+    "country": "GB",
+    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "life-span": {
+        "begin": "1957-03",
+        "end": "1970-04-10",
+        "ended": true
+    },
+    "name": "The Beatles",
+    "score": "100",
+    "sort-name": "Beatles, The",
+    "tags": [
+        {
+            "count": 1,
+            "name": "uk"
+        },
+        {
+            "count": 11,
+            "name": "rock"
+        },
+        {
+            "count": 0,
+            "name": "english"
+        },
+        {
+            "count": 0,
+            "name": "overrated"
+        },
+        {
+            "count": 0,
+            "name": "parlophone"
+        },
+        {
+            "count": 0,
+            "name": "60s"
+        },
+        {
+            "count": 0,
+            "name": "pop-rock"
+        },
+        {
+            "count": 0,
+            "name": "pop/rock"
+        },
+        {
+            "count": 2,
+            "name": "psychedelic pop"
+        },
+        {
+            "count": 2,
+            "name": "rock & roll"
+        },
+        {
+            "count": 1,
+            "name": "british invasion"
+        },
+        {
+            "count": 0,
+            "name": "folk-rock"
+        },
+        {
+            "count": 0,
+            "name": "rock roll"
+        },
+        {
+            "count": 0,
+            "name": "tribute albums"
+        },
+        {
+            "count": 0,
+            "name": "pop-metal"
+        },
+        {
+            "count": 0,
+            "name": "indie rock"
+        },
+        {
+            "count": 0,
+            "name": "heavy metal"
+        },
+        {
+            "count": 0,
+            "name": "adult alternative pop rock"
+        },
+        {
+            "count": 0,
+            "name": "british psychedelia"
+        },
+        {
+            "count": 0,
+            "name": "orchestral"
+        },
+        {
+            "count": 0,
+            "name": "orchestral pop"
+        },
+        {
+            "count": 0,
+            "name": "instrumental pop"
+        },
+        {
+            "count": 0,
+            "name": "psychedelic"
+        },
+        {
+            "count": 0,
+            "name": "singer songwriter"
+        },
+        {
+            "count": 1,
+            "name": "classical pop"
+        },
+        {
+            "count": 0,
+            "name": "classic pop and rock"
+        },
+        {
+            "count": -1,
+            "name": "britpop"
+        },
+        {
+            "count": 0,
+            "name": "progressive rock"
+        },
+        {
+            "count": 0,
+            "name": "1"
+        },
+        {
+            "count": 0,
+            "name": "united kingdom"
+        },
+        {
+            "count": 0,
+            "name": "rock and roll"
+        },
+        {
+            "count": 2,
+            "name": "experimental"
+        },
+        {
+            "count": 0,
+            "name": "male vocalists"
+        },
+        {
+            "count": 1,
+            "name": "liverpool"
+        },
+        {
+            "count": 10,
+            "name": "pop"
+        },
+        {
+            "count": 0,
+            "name": "one beatles"
+        },
+        {
+            "count": 5,
+            "name": "british"
+        },
+        {
+            "count": 3,
+            "name": "pop rock"
+        },
+        {
+            "count": 0,
+            "name": "a filk artist"
+        },
+        {
+            "count": 0,
+            "name": "hair metal"
+        },
+        {
+            "count": 2,
+            "name": "psychedelic rock"
+        },
+        {
+            "count": 0,
+            "name": "80s"
+        },
+        {
+            "count": 0,
+            "name": "the-beatles"
+        },
+        {
+            "count": 0,
+            "name": "bbc"
+        },
+        {
+            "count": 1,
+            "name": "british rhythm & blues"
+        },
+        {
+            "count": 1,
+            "name": "rhythm & blues"
+        },
+        {
+            "count": 3,
+            "name": "merseybeat"
+        },
+        {
+            "count": 1,
+            "name": "folk pop"
+        },
+        {
+            "count": 1,
+            "name": "folk rock"
+        },
+        {
+            "count": 1,
+            "name": "sunshine pop"
+        },
+        {
+            "count": 1,
+            "name": "art pop"
+        },
+        {
+            "count": 1,
+            "name": "art rock"
+        },
+        {
+            "count": 2,
+            "name": "hard rock"
+        },
+        {
+            "count": 1,
+            "name": "blues rock"
+        },
+        {
+            "count": 1,
+            "name": "beat music"
+        },
+        {
+            "count": 1,
+            "name": "boys band"
+        }
+    ],
+    "type": "Group"
+}
+requesting http://musicbrainz.org/ws/2/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d?query=artist%3ABeatles&fmt=json&inc=aliases
+Traceback (most recent call last):
+  File "C:\Users\Bash\Desktop\Udacity\2_Data Analysis\P2\Beatles\musicbrains.py", line 79, in <module>
+    main()
+  File "C:\Users\Bash\Desktop\Udacity\2_Data Analysis\P2\Beatles\musicbrains.py", line 66, in main
+    aliases = artist_data["aliases"]
+KeyError: 'aliases'
+[Finished in 1.257s]
