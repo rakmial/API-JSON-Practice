@@ -36,6 +36,7 @@ def parse_file(datafile):
             'minvalue': coast_min,
             'avgcoast': coast_mean
     }
+    print data
     return data
 
     ### example on how you can get the data
@@ -53,7 +54,6 @@ def parse_file(datafile):
     # print sheet.cell_value(3, 2)
     # print "Get a slice of values in column 3, from rows 1-3:"
     # print sheet.col_values(3, start_rowx=1, end_rowx=4)
-
     # print "\nDATES:"
     # print "Type of data in cell (row 1, col 0):",
     # print sheet.cell_type(1, 0)
